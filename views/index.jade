@@ -1,5 +1,5 @@
 doctype html
-html(lang='en', ng-app="weddingApp")  
+html(lang='en', ng-app="landingPage")  
     head
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
@@ -8,7 +8,7 @@ html(lang='en', ng-app="weddingApp")
         meta(name='viewport', content='width=device-width')
         link(rel='stylesheet', href='/styles/css/screen.css')
         link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
-    body(ng-controller="weddingController")
+    body(ng-controller="contactCtrl")
         .everything
             .intro
                 .logo-container
@@ -22,8 +22,13 @@ html(lang='en', ng-app="weddingApp")
                 .right
                     .label.
                         Enter you email and be notified of awesomeness
-                    input.email(type="text")
-                    input.button(type="button", value="YAY")
+                    input.email(type="text", ng-model="email")
+                    input.button(type="button", value="YAY", ng-click="sendContact()")
+                    .rsvp-result
+                        span.rsvp-processing(ng-show="contactResult === 'p'")|One second, while we process your request...
+                        span.rsvp-success(ng-show="contactResult === 's'")|Your contact info has been received!
+                        span.rsvp-fail(ng-show="contactResult === 'r'")|Please supply and email address.
+                        span.rsvp-fail(ng-show="contactResult === 'f'")|Woops, something went wrong. Would you mind trying that again?
             .features
                 .header.
                     What we do

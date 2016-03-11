@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 
 app.get('/', function(req, res) {
-	res.render('index.jade', { name: config.name, logo: config.logo })
+	res.render('index.jade', { name: config.company.name, logo: config.company.logo })
 })
 
 app.post('/contact', contactHandler.contact)

@@ -1,9 +1,9 @@
 var app = angular.module('landingPage')
 
-app.controller('contactCtrl', ['$scope', 'landingPageService', function ($scope, service) {
+app.controller('contactCtrl', ['$scope', 'contactService', function ($scope, service) {
 
     $scope.sendContact = function() {
-        if(!$scope.names) {
+        if(!$scope.email) {
             $scope.contactResult = 'r'
         }
         else {

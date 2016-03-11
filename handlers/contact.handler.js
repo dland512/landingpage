@@ -1,14 +1,12 @@
 var nodemailer = require("nodemailer")
 var config = require("../config/" + process.env.name)
 
-var COMMENT_MAX_LEN = 1500
-
 try {
     var transport = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: config.contact.username,
-            pass: config.contact.password
+            user: 'companynametest80@gmail.com',
+            pass: 'companynametest99'
         }
     })
 }
@@ -18,23 +16,13 @@ catch(e) {
 
 exports.contact = function(req, res, next) {
     try {
-        console.log('rsvp form: ' + JSON.stringify(req.body))
-
-        var comments = req.body.comments
-
-        //truncate comments to max allowed
-        if(comments && comments.length > COMMENT_MAX_LEN)
-            comments = comments.substring(0, COMMENT_MAX_LEN)
-
-        var text = 'Peoples: ' + req.body.names + '\n' +
-                   'Contact Infos: ' + req.body.contact + "\n" +
-                   'Comments: ' + req.body.comments
+        console.log('contact form: ' + JSON.stringify(req.body) + ' under ' + config.company.name)
 
         var options = {
-            from: config.contact.username,
-            to: config.contact.to,
-            subject: 'Wedding RSVP',
-            text: text
+            from: req.body.email,
+            to: 'companynametest80@gmail.com',
+            subject: 'Contact request from ' + config.company.name,
+            text: '+1 for ' + config.company.name + '\n' + req.body.email
         }
 
         transport.sendMail(options, function(err, mailRes) {
