@@ -104,90 +104,111 @@ a {
 
 /* line 82, ../sass/screen.scss */
 .intro {
-  background-color: white;
   padding: 40px;
-  /*border: solid 1px gray;*/
   border-bottom: none;
-  background-image: url("../../images/austin.png");
+  background-color: #4a646f;
+  position: relative;
+  height: 630px;
+  color: white;
+  background: #0098db;
+  background-image: url("../../images/desk.png");
+  background-position: bottom center;
   background-repeat: no-repeat;
-  background-position: center;
-  /*background-color: rgb(49, 131, 143);*/
 }
-
-/* line 93, ../sass/screen.scss */
-.top {
-  display: block;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(255, 255, 255, 0.75);
-  padding: 75px;
+/* line 95, ../sass/screen.scss */
+.intro .logo-container {
+  margin-bottom: 20px;
 }
-
 /* line 99, ../sass/screen.scss */
-#logo {
+.intro #logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 150px;
 }
-
 /* line 104, ../sass/screen.scss */
-.heading {
-  font-family: ralewayregular;
-  font-size: 20pt;
+.intro .left {
+  position: absolute;
+  left: 40px;
+  width: 500px;
   margin-top: 50px;
-  margin-bottom: 30px;
 }
-
-/* line 111, ../sass/screen.scss */
-.description {
+/* line 110, ../sass/screen.scss */
+.intro .left .heading {
+  font-family: ralewayregular;
+  font-size: 24pt;
+  margin-bottom: 20px;
+}
+/* line 116, ../sass/screen.scss */
+.intro .left .description {
   font-size: 16pt;
   margin-bottom: 30px;
+  line-height: 35px;
 }
-
-/* line 116, ../sass/screen.scss */
-.label {
+/* line 123, ../sass/screen.scss */
+.intro .right {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  margin-top: 50px;
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+/* line 131, ../sass/screen.scss */
+.intro .right .label {
   font-size: 14pt;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
+}
+/* line 136, ../sass/screen.scss */
+.intro .right .email {
+  width: 340px;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .features {
   padding: 40px;
+  background-color: #f3f8fa;
   color: #4a4a4a;
   border: solid 1px #31838F;
+  border-top: 0px;
+}
+/* line 149, ../sass/screen.scss */
+.features .header {
+  text-align: center;
+  color: #0098db;
+  font-size: 20pt;
+  font-weight: bold;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .feature-row {
   position: relative;
   margin: 50px 50px 50px 50px;
   height: 350px;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .feature-col-1 {
   position: absolute;
-  left: 0px;
+  left: 30px;
   width: 400px;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .feature-col-2 {
   position: absolute;
-  right: 0px;
+  right: 15px;
   width: 400px;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .feature-icon {
   display: block;
   margin-bottom: 20px;
   height: 150px;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .feature-title {
   display: inline-block;
   font-size: 14pt;
@@ -195,12 +216,12 @@ a {
   margin-bottom: 20px;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .feature-description {
   line-height: 20px;
 }
 
-/* line 164, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 input[type="text"], input[type="password"] {
   padding: 12px 15px;
   height: auto;
@@ -208,7 +229,7 @@ input[type="text"], input[type="password"] {
   border: none;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 input[type="button"], input[type="submit"] {
   border: none;
   height: 46px;
@@ -219,22 +240,23 @@ input[type="button"], input[type="submit"] {
   color: white;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 186, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .clickable {
   cursor: pointer;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .footer {
   text-align: center;
+  margin: 20px;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .copyright {
   display: inline-block;
 }

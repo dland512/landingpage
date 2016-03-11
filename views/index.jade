@@ -11,18 +11,22 @@ html(lang='en', ng-app="weddingApp")
     body(ng-controller="weddingController")
         .everything
             .intro
-                .top.center
+                .logo-container
                     img#logo(src="images/#{logo}")
+                .left
                     .heading.
                         Software services for humans!
                     .description
                         p.
                             #{name} specializes in custom software solutions that focus on people rather than computers.
+                .right
                     .label.
                         Enter you email and be notified of awesomeness
                     input.email(type="text")
                     input.button(type="button", value="YAY")
             .features
+                .header.
+                    What we do
                 .feature-row
                     .feature-col-1
                         img.feature-icon(src="images/pm.png")

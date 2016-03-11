@@ -80,48 +80,78 @@ a {
 }
 
 .intro {
-    background-color: white;
     padding: 40px;
-    /*border: solid 1px gray;*/
     border-bottom: none;
-    background-image: url('../../images/austin.png');
+    background-color: #4a646f;
+    position: relative;
+    height: 630px;
+    color: white;
+
+    background: rgb(0, 152, 219);
+    background-image: url('../../images/desk.png');
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-position: center;
-    /*background-color: rgb(49, 131, 143);*/
-}
 
-.top {
-    @include vcentered(600px);
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 75px;
-}
+    .logo-container {
+        margin-bottom: 20px;
+    }
 
-#logo {
-    @include hcentered;
-    height: 150px;
-}
+    #logo {
+        @include hcentered;
+        height: 150px;
+    }
 
-.heading {
-    font-family: $title-font;
-    font-size: 20pt;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
+    .left {
+        position: absolute;
+        left: 40px;
+        width: 500px;
+        margin-top: 50px;
 
-.description {
-    font-size: 16pt;
-    margin-bottom: 30px;
-}
+        .heading {
+            font-family: $title-font;
+            font-size: 24pt;
+            margin-bottom: 20px;
+        }
 
-.label {
-    font-size: 14pt;
-    margin-bottom: 10px;
+        .description {
+            font-size: 16pt;
+            margin-bottom: 30px;
+            line-height: 35px;
+        }
+    }
+
+    .right {
+        position: absolute;
+        right: 0px;
+        width: 500px;
+        margin-top: 50px;
+        padding: 35px;
+        background-color: rgba(255, 255, 255, 0.35);
+
+        .label {
+            font-size: 14pt;
+            margin-bottom: 18px;
+        }
+
+        .email {
+            width: 340px;
+        }
+    }
 }
 
 .features {
     padding: 40px;
+    background-color: rgb(243, 248, 250);
     color: $feature-color;
     border: solid 1px $color-1;
+    border-top: 0px;
+
+    .header {
+        text-align: center;
+        color: #0098db;
+        font-size: 20pt;
+        font-weight: bold;
+    }
 }
 
 .feature-row {
@@ -132,13 +162,13 @@ a {
 
 .feature-col-1 {
     position: absolute;
-    left: 0px;
+    left: 30px;
     width: 400px;
 }
 
 .feature-col-2 {
     position: absolute;
-    right: 0px;
+    right: 15px;
     width: 400px;
 }
 
@@ -190,6 +220,7 @@ strong {
 
 .footer {
   text-align: center;
+  margin: 20px;
 }
 
 .copyright {
