@@ -1,0 +1,182 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('/fonts/raleway/raleway-regular-webfont.eot');
+    src: url('/fonts/raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('/fonts/raleway/raleway-regular-webfont.woff') format('woff'),
+         url('/fonts/raleway/raleway-regular-webfont.ttf') format('truetype'),
+         url('/fonts/raleway/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* fonts */
+$title-font: ralewayregular;
+$script-font: ralewayregular;
+$message-font: MTScript;
+$info-text-font: Garamond;
+
+
+/* colors */
+$link-color: #f8bf54;
+$color-1: #31838F;
+$color-2: #D11B06;
+$feature-color: #4a4a4a;
+
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: $script-font;
+    font-size: 12pt;
+    color: black;
+    background-color: white;
+}
+
+
+@mixin centered($width, $height) {
+    position: absolute;
+    width: $width;
+    height: $height;
+    left: 50%;
+    top: 50%;
+    margin-top: -$height/2;
+    margin-left: -$width/2;
+}
+
+@mixin hcentered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+@mixin vcentered($width) {
+    display: block;
+    width: $width;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+.everything {
+    @include hcentered;
+    width: 1200px;
+    padding: 20px;
+}
+
+.intro {
+    background-color: white;
+    padding: 40px;
+    border: solid 1px $color-1;
+}
+
+.top {
+    @include vcentered(600px)
+}
+
+#logo {
+    @include hcentered;
+    height: 150px;
+}
+
+.heading {
+    font-family: $title-font;
+    font-size: 20pt;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 16pt;
+    margin-bottom: 30px;
+}
+
+.label {
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.features {
+    padding: 40px;
+    color: $feature-color;
+}
+
+.feature-row {
+    position: relative;
+    margin: 50px 50px 50px 50px;
+    height: 150px;
+}
+
+.feature-col-1 {
+    position: absolute;
+    left: 0px;
+    width: 400px;
+}
+
+.feature-col-2 {
+    position: absolute;
+    right: 0px;
+    width: 400px;
+}
+
+.feature-title {
+    display: inline-block;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    line-height: 20px;
+}
+
+
+input[type="text"], input[type="password"] {
+    padding: 12px 15px;
+    height: auto;
+    font-size: 14pt;
+    border: none;
+}
+
+
+input[type="button"], input[type="submit"] {
+    border: none;
+    height: 46px;
+    position: absolute;
+    width: 125px;
+    font-size: 14pt;
+    background-color: rgb(50, 50, 51);
+    color: white;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+.footer {
+  text-align: center;
+}
+
+.copyright {
+  display: inline-block;
+}

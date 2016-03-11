@@ -1,0 +1,66 @@
+doctype html
+html(lang='en', ng-app="weddingApp")  
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+        title|#{name}
+        meta(name='description', content='')
+        meta(name='viewport', content='width=device-width')
+        link(rel='stylesheet', href='/styles/css/screen.css')
+        link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+    body(ng-controller="weddingController")
+        .everything
+            .intro
+                img#logo(src="images/#{logo}")
+                .top.center
+                    .heading.
+                        Software services for humans
+                    .description
+                        p.
+                            #{name} specializes in custom software solutions that focus on people rather than computers.
+                    .label.
+                        Enter you email and be notified of awesomeness
+                    input.email(type="text")
+                    input.button(type="button", value="YAY")
+            .features
+                .feature-row
+                    .feature-col-1
+                        img.feature-icon(src="graph.png")
+                        span.feature-title.
+                            Project management
+                        p.feature-description.
+                            We have experience running many project in sectors ranging from education to oil and gas to whatever else. We have experience running many project in sectors ranging from education to oil and gas to whatever else.
+                    .feature-col-2
+                        img.feature-icon(src="heart.png")
+                        span.feature-title.
+                            UX and branding
+                        p.feature-description.
+                            Software is all about making people lives easier and more productive. We put people first and ensure that our software solves the right problems the right way. Then we set up intuitive and efficient interfaces that make software a joy to use.
+                .feature-row
+                    .feature-col-1
+                        img.feature-icon(src="binary.png")
+                        span.feature-title.
+                            Full stack development
+                        p.feature-description.
+                            We own the entire technological stack of every solution we put together. Databases, web, mobile, and everything in between. We are comfortable with Microsoft, iOS, open source, and other proprietery systems.
+                    .feature-col-2
+                        img.feature-icon(src="checklist.png")
+                        span.feature-title.
+                            Quality assurance
+                        p.feature-description.
+                            Great software requires great testing. We engineer quality into our systems from the ground up. We manage the bredth and complexity of software testing by automating the process and making 
+            .footertesting effecient and reproducible.
+                .copyright.
+                    © #{name} 2016
+        script(src='/bower_components/angular/angular.min.js')
+        script(src='/js/app.js')
+        script(src='/js/contact.controller.js')
+        script(src='/js/contact.service.js')
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-74974722-1', 'auto');
+            ga('send', 'pageview');
