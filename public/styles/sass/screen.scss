@@ -82,11 +82,18 @@ a {
 .intro {
     background-color: white;
     padding: 40px;
-    border: solid 1px $color-1;
+    /*border: solid 1px gray;*/
+    border-bottom: none;
+    background-image: url('../../images/austin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: rgb(49, 131, 143);*/
 }
 
 .top {
-    @include vcentered(600px)
+    @include vcentered(600px);
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 75px;
 }
 
 #logo {
@@ -114,12 +121,13 @@ a {
 .features {
     padding: 40px;
     color: $feature-color;
+    border: solid 1px $color-1;
 }
 
 .feature-row {
     position: relative;
     margin: 50px 50px 50px 50px;
-    height: 150px;
+    height: 350px;
 }
 
 .feature-col-1 {
@@ -134,11 +142,18 @@ a {
     width: 400px;
 }
 
+.feature-icon {
+    display: block;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+
 .feature-title {
     display: inline-block;
     font-size: 14pt;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .feature-description {

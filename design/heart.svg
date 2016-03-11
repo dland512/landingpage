@@ -16,8 +16,6 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="heart.svg">
-  <defs
-     id="defs4317" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -26,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="341.6381"
+     inkscape:cx="111.23111"
      inkscape:cy="621.18631"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -36,6 +34,96 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
+  <defs
+     id="defs4317">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4971">
+      <circle
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4973"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4975">
+      <circle
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4977"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4979">
+      <circle
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4981"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4983">
+      <circle
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4985"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4989">
+      <circle
+         transform="matrix(0.86658363,0,0,0.86658363,50.256678,53.617825)"
+         clip-path="url(#clipPath4983)"
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4991"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4993">
+      <circle
+         transform="matrix(0.86658363,0,0,0.86658363,50.256678,53.617825)"
+         clip-path="url(#clipPath4983)"
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4995"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4997">
+      <circle
+         transform="matrix(0.86658363,0,0,0.86658363,50.256678,53.617825)"
+         clip-path="url(#clipPath4983)"
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4999"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5001">
+      <circle
+         clip-path="url(#clipPath4983)"
+         style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle5003"
+         cx="376.69049"
+         cy="401.88342"
+         r="214.15234" />
+    </clipPath>
+  </defs>
   <metadata
      id="metadata4320">
     <rdf:RDF>
@@ -44,32 +132,51 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <circle
-       style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4875"
-       cx="376.69049"
+       r="214.15234"
        cy="401.88342"
-       r="214.15234" />
-    <rect
-       style="fill:#000000;fill-opacity:0.31952664;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4893"
-       width="458.03732"
-       height="236.01161"
-       x="-403.61688"
-       y="408.04776"
-       transform="matrix(0.70172287,-0.71245001,0.71245001,0.70172287,0,0)" />
+       cx="376.69049"
+       id="path4875"
+       style="fill:#31838f;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="url(#clipPath5001)"
+       transform="matrix(0.86658363,0,0,0.86658363,50.256678,53.617825)"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\icon-ux.png"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999" />
+    <path
+       style="fill:#000000;fill-opacity:0.15686275;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 309.5332,298.29688 c -23.90093,-0.91026 -44.25205,13.59716 -59.29101,30.80468 -40.0607,40.19973 -80.38567,80.14515 -120.34571,120.44141 -28.20994,30.73261 -19.94939,80.35937 5.70595,109.99539 33.31187,38.69913 78.63737,66.08073 106.98155,109.29953 10.90991,-11.09844 21.8028,-21.73498 32.70508,-32.96094 5.85457,-5.4634 11.70261,-11.88833 17.5586,-17.30468 5.42771,-5.91963 10.86787,-10.69616 16.29687,-16.65821 4.24782,-3.69877 8.49116,-8.70581 12.74024,-12.37695 4.49581,-5.10462 9.00477,-8.79949 13.50195,-13.93164 3.81631,-3.16836 7.62239,-7.86343 11.43945,-11.00977 4.3085,-4.99987 8.62325,-8.39266 12.93164,-13.41601 3.84913,-3.1182 7.67889,-7.94414 11.52344,-11.03907 11.09466,-15.95283 26.80272,-28.04606 39.92773,-42.29882 23.8457,-24.82708 49.98905,-47.59311 71.72685,-74.33149 23.42936,-29.59058 27.95479,-77.34049 -0.8811,-105.06015 -26.42008,-28.05642 -75.66367,-26.14159 -100.41801,3.16507 -9.29482,13.81517 -15.25572,11.57177 -22.8678,-2.27385 -12.61622,-13.40664 -30.83209,-21.16096 -49.23572,-21.0445 z"
+       id="path4151"
+       inkscape:connector-curvature="0"
+       clip-path="url(#clipPath4997)"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\icon-ux.png"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999" />
     <path
        inkscape:connector-curvature="0"
        d="m 310.82395,297.00658 c -38.30621,0 -68.60814,30.87366 -68.60814,68.60814 0,77.18415 77.75589,97.19486 130.35546,173.23555 50.31264,-75.46895 130.9272,-98.91007 130.9272,-173.23555 0,-37.73448 -30.87366,-68.60814 -68.60814,-68.60814 -27.44325,0 -51.4561,16.00857 -62.31906,39.44968 -10.86295,-23.44111 -34.30407,-39.44968 -61.74732,-39.44968 z"
+       id="path4136"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="url(#clipPath4989)"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\icon-ux.png"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 310.82395,297.00658 c -38.30621,0 -68.60814,30.87366 -68.60814,68.60814 0,77.18415 77.75589,97.19486 130.35546,173.23555 50.31264,-75.46895 130.9272,-98.91007 130.9272,-173.23555 0,-37.73448 -30.87366,-68.60814 -68.60814,-68.60814 -27.44325,0 -51.4561,16.00857 -62.31906,39.44968 -10.86295,-23.44111 -34.30407,-39.44968 -61.74732,-39.44968 z"
+       inkscape:connector-curvature="0"
+       clip-path="url(#clipPath4993)"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\icon-ux.png"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999" />
   </g>
 </svg>

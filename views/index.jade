@@ -11,10 +11,10 @@ html(lang='en', ng-app="weddingApp")
     body(ng-controller="weddingController")
         .everything
             .intro
-                img#logo(src="images/#{logo}")
                 .top.center
+                    img#logo(src="images/#{logo}")
                     .heading.
-                        Software services for humans
+                        Software services for humans!
                     .description
                         p.
                             #{name} specializes in custom software solutions that focus on people rather than computers.
@@ -25,31 +25,31 @@ html(lang='en', ng-app="weddingApp")
             .features
                 .feature-row
                     .feature-col-1
-                        img.feature-icon(src="graph.png")
+                        img.feature-icon(src="images/pm.png")
                         span.feature-title.
                             Project management
                         p.feature-description.
                             We have experience running many project in sectors ranging from education to oil and gas to whatever else. We have experience running many project in sectors ranging from education to oil and gas to whatever else.
                     .feature-col-2
-                        img.feature-icon(src="heart.png")
+                        img.feature-icon(src="images/ux.png")
                         span.feature-title.
                             UX and branding
                         p.feature-description.
                             Software is all about making people lives easier and more productive. We put people first and ensure that our software solves the right problems the right way. Then we set up intuitive and efficient interfaces that make software a joy to use.
                 .feature-row
                     .feature-col-1
-                        img.feature-icon(src="binary.png")
+                        img.feature-icon(src="images/dev.png")
                         span.feature-title.
                             Full stack development
                         p.feature-description.
                             We own the entire technological stack of every solution we put together. Databases, web, mobile, and everything in between. We are comfortable with Microsoft, iOS, open source, and other proprietery systems.
                     .feature-col-2
-                        img.feature-icon(src="checklist.png")
+                        img.feature-icon(src="images/testing.png")
                         span.feature-title.
                             Quality assurance
                         p.feature-description.
-                            Great software requires great testing. We engineer quality into our systems from the ground up. We manage the bredth and complexity of software testing by automating the process and making 
-            .footertesting effecient and reproducible.
+                            Great software requires great testing. We engineer quality into our systems from the ground up. We manage the bredth and complexity of software testing by automating the process and making testing effecient and reproducible.
+            .footer
                 .copyright.
                     © #{name} 2016
         script(src='/bower_components/angular/angular.min.js')
