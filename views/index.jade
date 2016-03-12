@@ -15,15 +15,15 @@ html(lang='en', ng-app="landingPage")
                     img#logo(src="images/#{logo}")
                 .left
                     .heading.
-                        Software services for humans!
+                        Software for humans!
                     .description
                         p.
-                            #{name} specializes in custom software solutions that focus on people rather than computers.
+                            #{name} specializes in custom software solutions that focus on people.
                 .right
                     .label.
-                        Enter you email and be notified of awesomeness
+                        Interested in learning more? Drop us a line!
                     input.email(type="text", ng-model="email")
-                    input.button(type="button", value="YAY", ng-click="sendContact()")
+                    input.button(type="button", value="SAY HI", ng-click="sendContact()")
                     .rsvp-result
                         span.rsvp-processing(ng-show="contactResult === 'p'")|One second, while we process your request...
                         span.rsvp-success(ng-show="contactResult === 's'")|Your contact info has been received!
@@ -38,26 +38,26 @@ html(lang='en', ng-app="landingPage")
                         span.feature-title.
                             Project management
                         p.feature-description.
-                            We have experience running many project in sectors ranging from education to oil and gas to whatever else. We have experience running many project in sectors ranging from education to oil and gas to whatever else.
+                            Success doesn't happen on accident. It takes talent and experience to keep a project on track. We bring our vast experience to bear on every project to make sure it comes in on time and within budget.
                     .feature-col-2
                         img.feature-icon(src="images/ux.png")
                         span.feature-title.
                             UX and branding
                         p.feature-description.
-                            Software is all about making people lives easier and more productive. We put people first and ensure that our software solves the right problems the right way. Then we set up intuitive and efficient interfaces that make software a joy to use.
+                            Software is about making life better. We put people first and ensure that we solve the right problems the right way. We believe software should be a joy to use and we won't be satisfied with anything less.
                 .feature-row
                     .feature-col-1
                         img.feature-icon(src="images/dev.png")
                         span.feature-title.
                             Full stack development
                         p.feature-description.
-                            We own the entire technological stack of every solution we put together. Databases, web, mobile, and everything in between. We are comfortable with Microsoft, iOS, open source, and other proprietery systems.
+                            We take ownership of the entire technological stack of every solution we put together. We deal in databases, web, mobile, desktop, and everything in between. We don't just work with technology, we live it every day.
                     .feature-col-2
                         img.feature-icon(src="images/testing.png")
                         span.feature-title.
                             Quality assurance
                         p.feature-description.
-                            Great software requires great testing. We engineer quality into our systems from the ground up. We manage the bredth and complexity of software testing by automating the process and making testing effecient and reproducible.
+                            Great software requires great testing. We engineer quality into our systems from the ground up. We manage the breadth and complexity of software quality by automating the process and making testing efficient and reproducible.
             .footer
                 .copyright.
                     © #{name} 2016

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo-bigkid2.svg"
+   inkscape:export-filename="C:\Projects\landingpage\public\images\logo-ignite-w.png"
+   inkscape:export-xdpi="60.619999"
+   inkscape:export-ydpi="60.619999">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4260">
+      <circle
+         style="fill:#dfb87f;fill-opacity:0.74509804;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="circle4262"
+         cx="500.82358"
+         cy="-194.27406"
+         r="202.0305"
+         transform="matrix(0.96116817,0.27596332,0.27596332,-0.96116817,0,0)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4264">
+      <circle
+         style="fill:#dfb87f;fill-opacity:0.74509804;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="circle4266"
+         cx="500.88477"
+         cy="193.88242"
+         r="202.0305"
+         transform="matrix(0.96116817,0.27596332,-0.27596332,0.96116817,0,0)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.4172794"
+     inkscape:cx="359.55949"
+     inkscape:cy="498.08132"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="897"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4210" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4299"
+       transform="matrix(0.72474943,0.65608709,-1.658674,1.8659452,1185.1954,-707.98194)"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+       inkscape:export-xdpi="252.28999"
+       inkscape:export-ydpi="252.28999"
+       style="fill:#ffffff;fill-opacity:1">
+      <g
+         id="g4303"
+         transform="translate(12,7)"
+         style="fill:#ffffff;fill-opacity:1">
+        <path
+           sodipodi:type="star"
+           style="fill:#31838f;fill-opacity:1"
+           id="path4164"
+           sodipodi:sides="3"
+           sodipodi:cx="389.53192"
+           sodipodi:cy="459.26581"
+           sodipodi:r1="140.08417"
+           sodipodi:r2="70.042084"
+           sodipodi:arg1="0.80234569"
+           sodipodi:arg2="1.8495432"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 486.89351,559.9847 -116.63375,-33.38036 -116.63375,-33.38036 87.22511,-84.31761 87.22512,-84.31762 29.40864,117.69797 z"
+           inkscape:transform-center-x="-0.0067532627"
+           inkscape:transform-center-y="-3.2567959"
+           transform="matrix(0.10967964,-0.02570095,0.03149039,0.08951528,160.60874,565.89302)"
+           clip-path="url(#clipPath4264)"
+           inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+           inkscape:export-xdpi="252.28999"
+           inkscape:export-ydpi="252.28999" />
+        <path
+           sodipodi:type="star"
+           style="fill:#d11b06;fill-opacity:1"
+           id="path4164-8"
+           sodipodi:sides="3"
+           sodipodi:cx="389.53192"
+           sodipodi:cy="459.26581"
+           sodipodi:r1="140.08417"
+           sodipodi:r2="70.042084"
+           sodipodi:arg1="0.80234569"
+           sodipodi:arg2="1.8495432"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 486.89351,559.9847 -116.63375,-33.38036 -116.63375,-33.38036 87.22511,-84.31761 87.22512,-84.31762 29.40864,117.69797 z"
+           inkscape:transform-center-x="-0.0067508246"
+           inkscape:transform-center-y="3.2567962"
+           transform="matrix(0.10967964,0.02570095,0.03149039,-0.08951528,160.61572,602.04271)"
+           clip-path="url(#clipPath4260)"
+           inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+           inkscape:export-xdpi="252.28999"
+           inkscape:export-ydpi="252.28999" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="255.92859"
+       y="537.64795"
+       id="text4277"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+       inkscape:export-xdpi="252.28999"
+       inkscape:export-ydpi="252.28999"><tspan
+         sodipodi:role="line"
+         id="tspan4279"
+         x="255.92859"
+         y="537.64795">BigKid</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#31838f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="369.27817"
+       y="583.44141"
+       id="text4277-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+       inkscape:export-xdpi="252.28999"
+       inkscape:export-ydpi="252.28999"><tspan
+         sodipodi:role="line"
+         id="tspan4279-9"
+         x="369.27817"
+         y="583.44141">Software</tspan></text>
+  </g>
+</svg>
