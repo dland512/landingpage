@@ -21,9 +21,9 @@ html(lang='en', ng-app="landingPage")
                             #{name} specializes in custom software solutions that focus on people.
                 .right
                     .label.
-                        Interested in learning more? Drop us a line!
+                        Drop us a line! Provide your contact info here.
                     input.email(type="text", ng-model="email")
-                    input.button(type="button", value="SAY HI", ng-click="sendContact()")
+                    input.button(type="button", value="SUBMIT", ng-click="sendContact()")
                     .rsvp-result
                         span.rsvp-processing(ng-show="contactResult === 'p'")|One second, while we process your request...
                         span.rsvp-success(ng-show="contactResult === 's'")|Your contact info has been received!
