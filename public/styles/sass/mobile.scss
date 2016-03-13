@@ -45,6 +45,16 @@ html,body {
 }
 
 
+@mixin centered($width, $height) {
+    position: absolute;
+    width: $width;
+    height: $height;
+    left: 50%;
+    top: 50%;
+    margin-top: -$height/2;
+    margin-left: -$width/2;
+}
+
 @mixin hcentered {
     display: block;
     margin-left: auto;
@@ -65,7 +75,7 @@ a {
 
 .everything {
     @include hcentered;
-    width: 1100px;
+    width: 1200px;
     padding: 20px;
 }
 
@@ -74,7 +84,9 @@ a {
     border-bottom: none;
     background-color: #4a646f;
     position: relative;
+    height: 630px;
     color: white;
+
     background: rgb(0, 152, 219);
     background-image: url('../../images/desk.png');
     background-position: bottom center;
@@ -90,9 +102,10 @@ a {
     }
 
     .left {
-        float: left;
-        width: 400px;
-        margin-top: 60px;
+        position: absolute;
+        left: 40px;
+        width: 500px;
+        margin-top: 50px;
 
         .heading {
             font-family: $title-font;
@@ -108,10 +121,10 @@ a {
     }
 
     .right {
-        float: right;
-        margin-right: -40px; /* compensate for 40px padding on parent */
-        width: 400px;
-        margin-top: 30px;
+        position: absolute;
+        right: 0px;
+        width: 500px;
+        margin-top: 50px;
         padding: 35px;
         background-color: rgba(255, 255, 255, 0.35);
 
@@ -121,7 +134,7 @@ a {
         }
 
         .email {
-            width: 245px;
+            width: 340px;
         }
 
         .rsvp-result {
@@ -129,13 +142,6 @@ a {
             color: #222222;
             font-weight: bold;
         }
-    }
-
-    .lame {
-        content: " ";
-        display: block; 
-        height: 250px; 
-        clear: both;
     }
 }
 
@@ -161,13 +167,15 @@ a {
 }
 
 .feature-col-1 {
-    float: left;
-    width: 40%;
+    position: absolute;
+    left: 30px;
+    width: 400px;
 }
 
 .feature-col-2 {
-    float: right;
-    width: 40%;
+    position: absolute;
+    right: 15px;
+    width: 400px;
 }
 
 .feature-icon {
@@ -178,7 +186,7 @@ a {
 
 
 .feature-title {
-    display: block;
+    display: inline-block;
     font-size: 14pt;
     font-weight: bold;
     margin-bottom: 20px;
@@ -189,17 +197,11 @@ a {
 }
 
 
-$text-padding-lr: 15px;
-
 input[type="text"], input[type="password"] {
-    padding: 12px $text-padding-lr;
+    padding: 12px 15px;
     height: auto;
     font-size: 14pt;
     border: none;
-
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-     box-sizing: border-box; 
 }
 
 
@@ -229,117 +231,4 @@ strong {
 
 .copyright {
   display: inline-block;
-}
-
-@media (max-width: 1150px) {
-    .everything {
-        width: 94%;
-    }
-}
-
-@media (max-width: 1000px) {
-    .intro {
-        #logo {
-            height: auto !important;
-            width: 60%;
-        }
-
-        .left {
-            @include hcentered;
-            float: none;
-            text-align: center;
-        }
-
-        .right {
-            @include hcentered;
-            float: none;
-        }
-    }
-}
-
-
-@media (max-width: 750px) {
-    .features {
-        padding: 20px;
-        text-align: center;
-
-        .feature-row {
-            margin: 0px;
-            height: auto;
-        }
-
-        .feature-icon {
-            display: inline;
-        }
-
-        .feature-col-1 {
-            float: none;
-            width: 100%;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-
-        .feature-col-2 {
-            float: none;
-            width: 100%;
-        }
-    }
-}
-
-
-@media (max-width: 650px) {
-    .everything {
-        padding: 0px;
-
-        .intro {
-            padding: 15px;
-
-            .logo-container {
-                margin-bottom: 0px;
-                        
-                #logo {
-                    width: 80%;
-                }
-            }
-
-            .left {
-                width: auto;
-                margin-top: 40px;
-
-                .heading {
-                    font-size: 18pt;
-                }
-
-                .description {
-                    font-size: 14pt;
-                    line-height: 25px;
-                }
-            }
-
-            .right {
-                width: auto;
-                text-align: center;
-                $width: 100%;
-                padding: 20px;
-
-                .label {
-                    font-size: 12pt;
-
-                    #contact-line-1 {
-                        display: none;
-                    }
-                }
-
-                .email {
-                    width: 100%;
-                }
-
-                #contactButton {
-                    position: static;
-                    width: 100%;
-                    margin-top: 20px;
-                }
-            }
-        }
-    }
 }
