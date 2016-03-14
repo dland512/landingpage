@@ -15,20 +15,9 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-ignite.svg">
+   sodipodi:docname="ignite-square.svg">
   <defs
      id="defs4">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4260">
-      <circle
-         style="fill:#dfb87f;fill-opacity:0.74509804;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="circle4262"
-         cx="500.82358"
-         cy="-194.27406"
-         r="202.0305"
-         transform="matrix(0.96116817,0.27596332,0.27596332,-0.96116817,0,0)" />
-    </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath4264">
@@ -40,6 +29,17 @@
          r="202.0305"
          transform="matrix(0.96116817,0.27596332,-0.27596332,0.96116817,0,0)" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4260">
+      <circle
+         style="fill:#dfb87f;fill-opacity:0.74509804;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="circle4262"
+         cx="500.82358"
+         cy="-194.27406"
+         r="202.0305"
+         transform="matrix(0.96116817,0.27596332,0.27596332,-0.96116817,0,0)" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -48,22 +48,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="277.28933"
-     inkscape:cy="521.28193"
+     inkscape:zoom="2.8"
+     inkscape:cx="318.47591"
+     inkscape:cy="520"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     showguides="false"
      inkscape:window-width="1440"
      inkscape:window-height="897"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4210" />
-  </sodipodi:namedview>
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -80,16 +75,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#31838f;fill-opacity:0"
-       id="rect4154"
-       width="214.15234"
-       height="104.04572"
-       x="295.9747"
-       y="420.00671" />
     <g
        id="g4299"
-       transform="matrix(-0.00852749,0.74871437,-2.0363595,-0.00313533,1560.0762,367.96098)">
+       transform="matrix(-0.00986677,0.97755544,-2.4965865,-0.00259189,1846.5888,307.74283)"
+       inkscape:export-xdpi="277.62564"
+       inkscape:export-ydpi="277.62564">
       <g
          id="g4303"
          transform="translate(12,7)">
@@ -135,25 +125,38 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="205.42859"
-       y="548.14795"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.01608467px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="337.58829"
+       y="510.26965"
        id="text4277"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="277.62564"
+       inkscape:export-ydpi="277.62564"><tspan
          sodipodi:role="line"
          id="tspan4279"
-         x="205.42859"
-         y="548.14795">Ignite</tspan></text>
+         x="337.58829"
+         y="510.26965">Ignite</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#31838f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="240.27817"
-       y="588.94141"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.93385887px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#31838f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="320.15634"
+       y="565.56183"
        id="text4277-7"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="277.62564"
+       inkscape:export-ydpi="277.62564"><tspan
          sodipodi:role="line"
          id="tspan4279-9"
-         x="240.27817"
-         y="588.94141">Software</tspan></text>
+         x="320.15634"
+         y="565.56183">Software</tspan></text>
+    <rect
+       style="opacity:0.41000001;fill:none;fill-opacity:1;stroke:none;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4152"
+       width="97.253265"
+       height="97.253265"
+       x="319.94479"
+       y="480.87842"
+       inkscape:export-xdpi="277.62564"
+       inkscape:export-ydpi="277.62564" />
   </g>
 </svg>

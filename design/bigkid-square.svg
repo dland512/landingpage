@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-ignite.svg">
+   sodipodi:docname="bigkid-square.svg"
+   inkscape:export-filename="C:\Projects\landingpage\design\ignite-square.png"
+   inkscape:export-xdpi="36.290001"
+   inkscape:export-ydpi="36.290001">
   <defs
      id="defs4">
     <clipPath
@@ -49,7 +52,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="277.28933"
+     inkscape:cx="350.7473"
      inkscape:cy="521.28193"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -59,7 +62,8 @@
      inkscape:window-height="897"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true">
     <inkscape:grid
        type="xygrid"
        id="grid4210" />
@@ -80,16 +84,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#31838f;fill-opacity:0"
-       id="rect4154"
-       width="214.15234"
-       height="104.04572"
-       x="295.9747"
-       y="420.00671" />
     <g
        id="g4299"
-       transform="matrix(-0.00852749,0.74871437,-2.0363595,-0.00313533,1560.0762,367.96098)">
+       transform="matrix(0.00852749,-0.74871437,2.0363595,0.00313533,-850.61426,708.37202)"
+       inkscape:export-xdpi="337.91"
+       inkscape:export-ydpi="337.91">
       <g
          id="g4303"
          transform="translate(12,7)">
@@ -135,25 +134,38 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="205.42859"
-       y="548.14795"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.56139374px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="327.03259"
+       y="525.08319"
        id="text4277"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="337.91"
+       inkscape:export-ydpi="337.91"><tspan
          sodipodi:role="line"
          id="tspan4279"
-         x="205.42859"
-         y="548.14795">Ignite</tspan></text>
+         x="327.03259"
+         y="525.08319">BigKid</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#31838f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="240.27817"
-       y="588.94141"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.09572029px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#31838f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="315.45413"
+       y="564.99371"
        id="text4277-7"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="337.91"
+       inkscape:export-ydpi="337.91"><tspan
          sodipodi:role="line"
          id="tspan4279-9"
-         x="240.27817"
-         y="588.94141">Software</tspan></text>
+         x="315.45413"
+         y="564.99371">Software</tspan></text>
+    <rect
+       style="opacity:0.41000001;fill:none;fill-opacity:1;stroke:none;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4155"
+       width="79.903069"
+       height="79.903069"
+       x="314.77942"
+       y="500.24487"
+       inkscape:export-xdpi="337.91"
+       inkscape:export-ydpi="337.91" />
   </g>
 </svg>

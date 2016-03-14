@@ -15,7 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-ignite.svg">
+   sodipodi:docname="bigkid-full.svg"
+   inkscape:export-filename="C:\Projects\landingpage\public\images\logo-ignite-w.png"
+   inkscape:export-xdpi="60.619999"
+   inkscape:export-ydpi="60.619999">
   <defs
      id="defs4">
     <clipPath
@@ -48,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="277.28933"
-     inkscape:cy="521.28193"
+     inkscape:zoom="1.7092747"
+     inkscape:cx="406.41052"
+     inkscape:cy="498.08132"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -80,19 +83,17 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#31838f;fill-opacity:0"
-       id="rect4154"
-       width="214.15234"
-       height="104.04572"
-       x="295.9747"
-       y="420.00671" />
     <g
        id="g4299"
-       transform="matrix(-0.00852749,0.74871437,-2.0363595,-0.00313533,1560.0762,367.96098)">
+       transform="matrix(0.72474943,0.65608709,-1.658674,1.8659452,1185.1954,-707.98194)"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+       inkscape:export-xdpi="169.84067"
+       inkscape:export-ydpi="169.84067"
+       style="fill:#ffffff;fill-opacity:1">
       <g
          id="g4303"
-         transform="translate(12,7)">
+         transform="translate(12,7)"
+         style="fill:#ffffff;fill-opacity:1">
         <path
            sodipodi:type="star"
            style="fill:#31838f;fill-opacity:1"
@@ -111,7 +112,10 @@
            inkscape:transform-center-x="-0.0067532627"
            inkscape:transform-center-y="-3.2567959"
            transform="matrix(0.10967964,-0.02570095,0.03149039,0.08951528,160.60874,565.89302)"
-           clip-path="url(#clipPath4264)" />
+           clip-path="url(#clipPath4264)"
+           inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+           inkscape:export-xdpi="252.28999"
+           inkscape:export-ydpi="252.28999" />
         <path
            sodipodi:type="star"
            style="fill:#d11b06;fill-opacity:1"
@@ -130,30 +134,48 @@
            inkscape:transform-center-x="-0.0067508246"
            inkscape:transform-center-y="3.2567962"
            transform="matrix(0.10967964,0.02570095,0.03149039,-0.08951528,160.61572,602.04271)"
-           clip-path="url(#clipPath4260)" />
+           clip-path="url(#clipPath4260)"
+           inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+           inkscape:export-xdpi="252.28999"
+           inkscape:export-ydpi="252.28999" />
       </g>
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="205.42859"
-       y="548.14795"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#d11b06;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="255.92859"
+       y="537.64795"
        id="text4277"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+       inkscape:export-xdpi="169.84067"
+       inkscape:export-ydpi="169.84067"><tspan
          sodipodi:role="line"
          id="tspan4279"
-         x="205.42859"
-         y="548.14795">Ignite</tspan></text>
+         x="255.92859"
+         y="537.64795">BigKid</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Ebrima;-inkscape-font-specification:Ebrima;letter-spacing:0px;word-spacing:0px;fill:#31838f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="240.27817"
-       y="588.94141"
+       x="369.27817"
+       y="583.44141"
        id="text4277-7"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Projects\landingpage\public\images\logo-landmark-w.png"
+       inkscape:export-xdpi="169.84067"
+       inkscape:export-ydpi="169.84067"><tspan
          sodipodi:role="line"
          id="tspan4279-9"
-         x="240.27817"
-         y="588.94141">Software</tspan></text>
+         x="369.27817"
+         y="583.44141">Software</tspan></text>
+    <rect
+       style="opacity:0.41000001;fill:none;fill-opacity:1;stroke:none;stroke-width:0.30000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4146"
+       width="529.46436"
+       height="202.42503"
+       x="129.29462"
+       y="444.50201"
+       inkscape:export-xdpi="169.84067"
+       inkscape:export-ydpi="169.84067" />
   </g>
 </svg>

@@ -48,9 +48,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.4172794"
-     inkscape:cx="386.97143"
-     inkscape:cy="498.08132"
+     inkscape:zoom="3.4185494"
+     inkscape:cx="333.1439"
+     inkscape:cy="509.2803"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -80,16 +80,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#31838f;fill-opacity:0"
-       id="rect4154"
-       width="214.15234"
-       height="104.04572"
-       x="295.9747"
-       y="420.00671" />
     <g
        id="g4299"
-       transform="matrix(0.72474943,0.65608709,-1.658674,1.8659452,1185.1954,-707.98194)">
+       transform="matrix(0.72474943,0.65608709,-1.658674,1.8659452,1185.1954,-707.98194)"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999">
       <g
          id="g4303"
          transform="translate(12,7)">
@@ -139,7 +134,9 @@
        x="271.92859"
        y="537.64795"
        id="text4277"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999"><tspan
          sodipodi:role="line"
          id="tspan4279"
          x="271.92859"
@@ -150,7 +147,9 @@
        x="369.27817"
        y="583.44141"
        id="text4277-7"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="60.619999"
+       inkscape:export-ydpi="60.619999"><tspan
          sodipodi:role="line"
          id="tspan4279-9"
          x="369.27817"
