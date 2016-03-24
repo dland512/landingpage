@@ -98,7 +98,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   padding: 20px;
 }
 
@@ -193,32 +193,27 @@ a {
 }
 
 /* line 159, ../sass/screen.scss */
-.feature-row {
-  position: relative;
-  margin: 50px 50px 50px 50px;
-  height: 350px;
+.feature-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-/* line 165, ../sass/screen.scss */
-.feature-col-1 {
-  float: left;
+/* line 166, ../sass/screen.scss */
+.feature {
   width: 40%;
+  margin-top: 50px;
 }
 
-/* line 170, ../sass/screen.scss */
-.feature-col-2 {
-  float: right;
-  width: 40%;
-}
-
-/* line 175, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .feature-icon {
   display: block;
   margin-bottom: 20px;
   height: 150px;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .feature-title {
   display: block;
   font-size: 14pt;
@@ -226,12 +221,12 @@ a {
   margin-bottom: 20px;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .feature-description {
   line-height: 20px;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 input[type="text"], input[type="password"] {
   padding: 12px 15px;
   height: auto;
@@ -242,7 +237,7 @@ input[type="text"], input[type="password"] {
   box-sizing: border-box;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 input[type="button"], input[type="submit"] {
   border: none;
   height: 46px;
@@ -253,23 +248,23 @@ input[type="button"], input[type="submit"] {
   color: white;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 222, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .clickable {
   cursor: pointer;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .footer {
   text-align: center;
   margin: 20px;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .copyright {
   display: inline-block;
 }
@@ -278,18 +273,18 @@ strong {
  * Intro text and contact form goes from side-by-side to stacked on top of each other.
  */
 @media (max-width: 1000px) {
-  /* line 242, ../sass/screen.scss */
+  /* line 238, ../sass/screen.scss */
   .intro .xyz {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  /* line 247, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   .intro .xyz .left {
     margin: auto;
     text-align: center;
   }
-  /* line 252, ../sass/screen.scss */
+  /* line 248, ../sass/screen.scss */
   .intro .xyz .right {
     margin-left: auto;
     margin-right: auto;
@@ -299,86 +294,73 @@ strong {
  * Feature list goes from grid to vertiacaly stacked list.
  */
 @media (max-width: 750px) {
-  /* line 265, ../sass/screen.scss */
+  /* line 261, ../sass/screen.scss */
   .features {
     padding: 20px;
     text-align: center;
   }
-  /* line 269, ../sass/screen.scss */
-  .features .feature-row {
-    margin: 0px;
-    height: auto;
+  /* line 265, ../sass/screen.scss */
+  .features .feature {
+    width: 90%;
   }
-  /* line 274, ../sass/screen.scss */
+  /* line 269, ../sass/screen.scss */
   .features .feature-icon {
     display: inline;
-  }
-  /* line 278, ../sass/screen.scss */
-  .features .feature-col-1 {
-    float: none;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  /* line 285, ../sass/screen.scss */
-  .features .feature-col-2 {
-    float: none;
-    width: 100%;
   }
 }
 /*
  * Adjust logo size, intro text font size, and stack contact form controls vertically.
  */
 @media (max-width: 650px) {
-  /* line 297, ../sass/screen.scss */
+  /* line 280, ../sass/screen.scss */
   .everything {
     padding: 0px;
   }
-  /* line 300, ../sass/screen.scss */
+  /* line 283, ../sass/screen.scss */
   .everything .intro {
     padding: 15px;
   }
-  /* line 303, ../sass/screen.scss */
+  /* line 286, ../sass/screen.scss */
   .everything .intro .logo-container {
     margin-bottom: 0px;
   }
-  /* line 306, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   .everything .intro .logo-container #logo {
     height: 90px;
   }
-  /* line 311, ../sass/screen.scss */
+  /* line 294, ../sass/screen.scss */
   .everything .intro .left {
     width: auto;
     margin-top: 40px;
   }
-  /* line 315, ../sass/screen.scss */
+  /* line 298, ../sass/screen.scss */
   .everything .intro .left .heading {
     font-size: 18pt;
   }
-  /* line 319, ../sass/screen.scss */
+  /* line 302, ../sass/screen.scss */
   .everything .intro .left .description {
     font-size: 14pt;
     line-height: 25px;
   }
-  /* line 325, ../sass/screen.scss */
+  /* line 308, ../sass/screen.scss */
   .everything .intro .right {
     width: auto;
     text-align: center;
     padding: 20px;
   }
-  /* line 331, ../sass/screen.scss */
+  /* line 314, ../sass/screen.scss */
   .everything .intro .right .label {
     font-size: 12pt;
   }
-  /* line 334, ../sass/screen.scss */
+  /* line 317, ../sass/screen.scss */
   .everything .intro .right .label #contact-line-1 {
     display: none;
   }
-  /* line 339, ../sass/screen.scss */
+  /* line 322, ../sass/screen.scss */
   .everything .intro .right .email {
     width: 100%;
   }
-  /* line 343, ../sass/screen.scss */
+  /* line 326, ../sass/screen.scss */
   .everything .intro .right #contactButton {
     position: static;
     width: 100%;

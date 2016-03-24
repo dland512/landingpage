@@ -65,7 +65,7 @@ a {
 
 .everything {
     @include hcentered;
-    width: 95%;
+    width: 90%;
     padding: 20px;
 }
 
@@ -156,20 +156,16 @@ a {
     }
 }
 
-.feature-row {
-    position: relative;
-    margin: 50px 50px 50px 50px;
-    height: 350px;
+.feature-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.feature-col-1 {
-    float: left;
+.feature {
     width: 40%;
-}
-
-.feature-col-2 {
-    float: right;
-    width: 40%;
+    margin-top: 50px;
 }
 
 .feature-icon {
@@ -266,25 +262,12 @@ strong {
         padding: 20px;
         text-align: center;
 
-        .feature-row {
-            margin: 0px;
-            height: auto;
+        .feature {
+            width: 90%;
         }
 
         .feature-icon {
             display: inline;
-        }
-
-        .feature-col-1 {
-            float: none;
-            width: 100%;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-
-        .feature-col-2 {
-            float: none;
-            width: 100%;
         }
     }
 }
