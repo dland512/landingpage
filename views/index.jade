@@ -9,29 +9,29 @@ html(lang='en', ng-app="landingPage")
         link(rel='stylesheet', href='/styles/css/screen.css')
     body(ng-controller="contactCtrl")
         .everything
-            .intro.clearfix
+            .intro
                 .logo-container
                     img#logo(src="images/#{logo}")
-                .left
-                    .heading.
-                        Software for humans!
-                    .description
-                        p.
-                            #{name} specializes in custom software solutions that focus on people.
-                .right
-                    .label
-                        span#contact-line-1.
-                            Drop us a line! 
-                        span#contact-line-2.
-                            Provide your contact info here.
-                    input.email(type="text", ng-model="email")
-                    input.button#contactButton(type="button", value="SUBMIT", ng-click="sendContact()")
-                    .rsvp-result
-                        span.rsvp-processing(ng-show="contactResult === 'p'")|One second, while we process your request...
-                        span.rsvp-success(ng-show="contactResult === 's'")|Your contact info has been received!
-                        span.rsvp-fail(ng-show="contactResult === 'r'")|Please supply and email address.
-                        span.rsvp-fail(ng-show="contactResult === 'f'")|Woops, something went wrong. Would you mind trying that again?
-                .lame
+                .xyz
+                    .left
+                        .heading.
+                            Software for humans!
+                        .description
+                            p.
+                                #{name} specializes in custom software solutions that focus on people.
+                    .right
+                        .label
+                            span#contact-line-1.
+                                Drop us a line! 
+                            span#contact-line-2.
+                                Provide your contact info here.
+                        input.email(type="text", ng-model="email")
+                        input.button#contactButton(type="button", value="SUBMIT", ng-click="sendContact()")
+                        .rsvp-result
+                            span.rsvp-processing(ng-show="contactResult === 'p'")|One second, while we process your request...
+                            span.rsvp-success(ng-show="contactResult === 's'")|Your contact info has been received!
+                            span.rsvp-fail(ng-show="contactResult === 'r'")|Please supply and email address.
+                            span.rsvp-fail(ng-show="contactResult === 'f'")|Woops, something went wrong. Would you mind trying that again?
             .features
                 .header.
                     What we do
