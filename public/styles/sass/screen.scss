@@ -88,7 +88,6 @@ a {
 
         #logo {
             height: 150px;
-            margin: auto;
         }
     }
     
@@ -258,18 +257,7 @@ strong {
  * Feature list goes from grid to vertiacaly stacked list.
  */
 @media (max-width: 750px) {
-    .features {
-        padding: 20px;
-        text-align: center;
-
-        .feature {
-            width: 90%;
-        }
-
-        .feature-icon {
-            display: inline;
-        }
-    }
+    
 }
 
 
@@ -327,6 +315,19 @@ strong {
                     position: static;
                     width: 100%;
                     margin-top: 20px;
+                }
+            }
+        }
+
+        .features {
+            padding: 20px;
+            text-align: center;
+
+            .feature {
+                width: 90%;
+
+                .feature-icon {
+                    display: inline;
                 }
             }
         }
