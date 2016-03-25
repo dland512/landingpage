@@ -81,9 +81,9 @@ a {
     background-repeat: no-repeat;
 
     .logo-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        @include display-flex;
+        @include flex-direction(row);
+        @include justify-content(center);
         margin-bottom: 50px;
 
         #logo {
@@ -92,8 +92,8 @@ a {
     }
     
     .xyz {
-        display: flex;
-        flex-direction: row;
+        @include display-flex;
+        @include flex-direction(row);
         margin-bottom: 20px;
 
         .left {
@@ -156,10 +156,10 @@ a {
 }
 
 .feature-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include display-flex;
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include justify-content(space-around);
 }
 
 .feature {
@@ -235,9 +235,9 @@ strong {
 @media (max-width: 1000px) {
     .intro {
         .xyz {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include display-flex;
+            @include flex-direction(column);
+            @include justify-content(center);
 
             .left {
                 margin: auto;
@@ -250,14 +250,6 @@ strong {
             }
         }
     }
-}
-
-
-/*
- * Feature list goes from grid to vertiacaly stacked list.
- */
-@media (max-width: 750px) {
-    
 }
 
 
